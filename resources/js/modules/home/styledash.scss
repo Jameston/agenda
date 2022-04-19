@@ -1,0 +1,47 @@
+.info-box{
+    cursor: pointer;
+    border-left: solid #0071bb; 
+    font-size: 16px;
+    box-shadow: 0px 5px 8px rgba(116, 113, 113, 0.795);
+}
+
+.info-box:hover{
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0px 15px 24px rgba(83, 81, 81, 0.795);
+    transition: all 0.50s ease;
+}
+
+.info-box-content{
+    text-align: center;
+    font-weight: 600;
+}
+
+.info-box-number{
+    font-size: 24px!important;
+}
+
+.info-box-number:hover{
+    transform: translateY(-5px) scale(1.02);
+    transition: all 0.50s ease;
+}
+
+.row h3{
+    padding: 20px;
+    color: #343a40;
+
+}
+
+.titl-ini{
+    padding: 20px;
+    margin-top: -50px!important;
+    
+}
+
+.titl-ini h3 {
+    color: #343a40;
+}
+
+.dark-mode .card {
+    background-color: #ebecf0;
+    color: #343a40;
+}

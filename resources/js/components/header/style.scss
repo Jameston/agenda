@@ -1,0 +1,46 @@
+.logo {
+    text-align: center;
+}
+
+.user-panel {
+    padding-top:40px!important;
+}
+
+.sidebar {
+    background-color: #ebecf0 !important;
+}
+
+.image img{
+    border: solid 1px #0071bb;
+}
+
+.brand-link img {
+    width: 80%;
+    margin-bottom: -20px;
+}
+
+.dark-mode .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active,
+.dark-mode .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #0071bb !important;
+    color: #fff!important;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active,
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus,
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color: #0070bba8;
+    color: #343a40 !important;
+}
+
+.nav-link p {
+    color: #333B40 !important;
+    font-weight: 400;
+}
+
+.nav-link i {
+    color: #333B40 !important;
+}
+
+.d-block {
+    color: #343a40 !important;
+}
